@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">EntradasDatos</string>
+    <string name="nombre_label_string">Nombre:</string>
+    <string name="direccion_string">Direccion</string>
+    <string name="telefono_string">Teléfono</string>
+    <string name="notas_string">Elegir método de envío</string>
+    <string name="en_el_mismo_dia_string">En el mismo día</string>
+    <string name="en_el_siguiente_dia">En el siguiente día</string>
+    <string name="racogida_string">Recogida</string>
+    <string-array name="spin">
+        <item>@string/en_el_mismo_dia_string</item>
+        <item>@string/en_el_siguiente_dia</item>
+        <item>@string/racogida_string</item>
+    </string-array>
+</resources>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">IntentImplicito</string>
+    <string name="textoUri">https://www.Wikipedia.org</string>
+    <string name="botonUri">visitarWeb</string>
+    <string name="recursoString">escribe una direccion URI</string>
+    <string name="botonMaps">Sitio que visitar</string>
+    <string name="botonCompartir">Compartir</string>
+</resources>

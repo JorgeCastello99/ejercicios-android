@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Ejercicio1</string>
+    <string name="envio">VER</string>
+    <string name="nombre">Nombre</string>
+    <string name="apellido">Apellido</string>
+    <string name="curso">Curso</string>
+    <string name="titulo">Datos del alumno de IES Julio Verne</string>
+
+</resources>

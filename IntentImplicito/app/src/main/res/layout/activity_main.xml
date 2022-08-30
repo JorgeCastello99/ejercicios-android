@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/buttonCompartir"
+        android:layout_width="164dp"
+        android:layout_height="87dp"
+        android:layout_marginStart="124dp"
+        android:onClick="onClickCompartir"
+        android:text="@string/botonCompartir"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText3"
+        app:layout_constraintVertical_bias="0.181" />
+
+    <EditText
+
+        android:id="@+id/editText3"
+        android:layout_width="249dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="468dp"
+        android:ems="10"
+        android:hint="@string/recursoString"
+        android:importantForAutofill="no"
+        android:inputType="textUri|textPersonName"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+
+        android:id="@+id/editText2"
+        android:layout_width="249dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="236dp"
+        android:ems="10"
+        android:hint="@string/recursoString"
+        android:importantForAutofill="no"
+        android:inputType="textUri|textPersonName"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonMaps"
+        android:layout_width="164dp"
+        android:layout_height="87dp"
+        android:layout_marginStart="112dp"
+        android:onClick="onClickSitioMaps"
+        android:text="@string/botonMaps"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText2"
+        app:layout_constraintVertical_bias="0.05" />
+
+    <Button
+        android:id="@+id/buttonUri"
+        android:layout_width="155dp"
+        android:layout_height="73dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="132dp"
+        android:onClick="onClickSitioWeb"
+        android:text="@string/botonUri"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText" />
+
+    <EditText
+
+        android:id="@+id/editText"
+        android:layout_width="249dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="56dp"
+        android:layout_marginEnd="80dp"
+        android:ems="10"
+        android:hint="@string/recursoString"
+        android:importantForAutofill="no"
+        android:inputType="textUri|textPersonName"
+        android:text="@string/textoUri"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

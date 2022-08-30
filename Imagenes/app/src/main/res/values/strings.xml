@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Imagenes</string>
+    <string name="action_settings">Settings</string>
+    <string name="textview">Titulo</string>
+    <string name="todo">TODO</string>
+    <string name="esto_es_una_flor">esto es una flor</string>
+    <string name="esto_es_un_astronauta">esto es un astronauta</string>
+    <string name="esto_es_un_saludo">esto es un saludo</string>
+</resources>
