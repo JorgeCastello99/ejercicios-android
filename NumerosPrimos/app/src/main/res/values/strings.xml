@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Ejprimos</string>
+    <string name="txt1">Introduce que numero primo quieres calcular. Por ejemplo, si deseas saber el sexto numero primo, pon el 6 y dale a calcular. Te saldrá que el primo numero 6 es 11.</string>
+    <string name="txt2">Calculadora numeros primos</string>
+    <string name="boton1">Calcular</string>
+    <string name="edittxt">Posición:</string>
+    <string name="resultado">El numero primo </string>
+    <string name="resultado2"> es: </string>
+</resources>

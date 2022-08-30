@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/itemInstruc"
+
+
+        android:onClick="onClickInstruc"
+        android:title="Instrucciones" />
+    <item
+        android:id="@+id/itemNuevo"
+        android:onClick="onClickNuevo"
+        android:title="Nuevo juego" />
+    <item
+        android:id="@+id/itemConfig"
+        android:onClick="onClickConfig"
+        android:title="Configuración" />
+    <item
+        android:id="@+id/itemSelección"
+        android:onClick="onClickSelec"
+        android:title="Selecciona personaje"
+        app:showAsAction="ifRoom" />
+</menu>
